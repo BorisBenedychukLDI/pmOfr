@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828059691207",
+    "project_id": "compamatchpacom",
+    "storage_bucket": "compamatchpacom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828059691207:android:ac83b4794e60269b4176e2",
+        "android_client_info": {
+          "package_name": "com.pama.tch.pa.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828059691207-pmvqgc36v9alfuvb59s11efhf15c6fs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDucUO3rC3WY6TrZX3f-70McLTKMcSvU80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828059691207-pmvqgc36v9alfuvb59s11efhf15c6fs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
