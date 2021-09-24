@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Parimatch</string>
+    <string name="connection_mqvexkvz">No Internet Connection</string>
+    <string name="loading_mqvexkvz">Loading…</string>
+    <string name="splash_label_mqvexkvz">Are you ready?</string>
+    <string name="splash_button_mqvexkvz">Let\'s go!</string>
 </resources>

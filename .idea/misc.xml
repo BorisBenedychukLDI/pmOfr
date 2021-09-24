@@ -6,11 +6,20 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21770833333333334" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/drawable/ic_baseline_replay_ofr.xml" value="0.26851851851851855" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/drawable/ic_launcher_mqvexkvz_background.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/layout-land/splash_activity_mqvexkvz.xml" value="0.17372134038800705" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/layout-land/splash_activity_ofr.xml" value="0.17372134038800705" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/layout/activity_main_mqvexkvz.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/layout/activity_main_ofr.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/layout/internet_dialog_mqvexkvz.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/layout/internet_dialog_ofr.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/layout/loading_dialog_ofr.xml" value="0.2667572463768116" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/layout/splash_activity_mqvexkvz.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/layout/splash_activity_ofr.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/mipmap-anydpi-v26/ic_launcher_mqvexkvz.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/mipmap-anydpi-v26/ic_launcher_mqvexkvz_round.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/xml/external_ofr.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PmOfr/app/src/main/res/xml/firebase_dafaults_ofr.xml" value="0.1" />
       </map>

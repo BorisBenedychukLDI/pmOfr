@@ -4,17 +4,15 @@ import android.app.Application
 import com.appsflyer.AppsFlyerConversionListener
 import com.appsflyer.AppsFlyerLib
 import com.onesignal.OneSignal
-import com.yandex.metrica.YandexMetricaConfig
-import com.pama.tch.pa.com.UtilsOfr.*
-import com.yandex.metrica.YandexMetrica
+import com.pama.tch.pa.com.UtilsMqvExKvz.*
 
-class CustomApplicationOfr : Application () {
+class CustomApplicationMqvExKvz : Application () {
     override fun onCreate() {
         super.onCreate()
         OneSignal.initWithContext(this)
         OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE)
-        OneSignal.setAppId(decodeBase64Ofr(ONE_SIGNAL_KEY))
-        val appsFlyerConvOfr = object : AppsFlyerConversionListener {
+        OneSignal.setAppId(decodeBase64MqvExKvz(BuildConfig.ONE_SIGNAL_KEY))
+        val appsFlyerConvMqvExKvz = object : AppsFlyerConversionListener {
             override fun onConversionDataSuccess(p0: MutableMap<String, Any>?) {
             }
 
@@ -28,8 +26,8 @@ class CustomApplicationOfr : Application () {
             }
         }
         AppsFlyerLib.getInstance().run {
-            init(decodeBase64Ofr(APPS_FLYER_KEY), appsFlyerConvOfr, this@CustomApplicationOfr)
-            startTracking(this@CustomApplicationOfr)
+            init(decodeBase64MqvExKvz(BuildConfig.APPS_FLYER_KEY), appsFlyerConvMqvExKvz, this@CustomApplicationMqvExKvz)
+            startTracking(this@CustomApplicationMqvExKvz)
         }
 
     }

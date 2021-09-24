@@ -8,12 +8,12 @@
     android:padding="20dp">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_internet_dialog_mqvexkvz"
         android:layout_width="250dp"
         android:layout_height="39dp"
-        android:fontFamily="@font/dela_gothic"
+        android:fontFamily="@font/dela_gothic_mqvexkvz"
         android:gravity="center"
-        android:text="Интернет-соединение осутствует "
+        android:text="@string/connection_mqvexkvz"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

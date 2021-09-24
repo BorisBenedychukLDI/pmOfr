@@ -1,4 +1,4 @@
-package com.pama.tch.pa.com.UiOfr
+package com.pama.tch.pa.com.UiMqvExKvz
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,14 +7,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import com.pama.tch.pa.com.R
 
-class LoadingDialogOfr : DialogFragment(R.layout.loading_dialog_ofr) {
+class InternetDialogMqvExKvz : DialogFragment()  {
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         isCancelable = false
-        retainInstance = true
-        return super.onCreateView(inflater, container, savedInstanceState)
+        return inflater.inflate(R.layout.internet_dialog_mqvexkvz, container, false)
     }
 }

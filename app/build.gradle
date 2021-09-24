@@ -17,6 +17,9 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
+        buildConfigField 'String' , 'BINOM_KEY' , '"aHR0cHM6Ly9wYW1hLnRjaC5wYXJpbWF0Y2guYmlkL2NsaWNrLnBocD9rZXk9MG51a3JybGdidW1iaHhzZ2JldmQ"'
+        buildConfigField 'String' , 'ONE_SIGNAL_KEY' , '"YmVkMzNhYmEtYTAzYS00ZjI4LTkzMGEtOWM5NjE4MzBlYTNl"'
+        buildConfigField 'String' , 'APPS_FLYER_KEY' , '"bjJoRldRTExtU2lSUXFZYVVocVdTYQ"'
 
     }
 
@@ -41,9 +44,9 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //AppsFlyer
 
@@ -58,12 +61,6 @@ dependencies {
     //Signal
 
     implementation 'com.onesignal:OneSignal:4.5.0'
-
-    //Yandex
-
-    implementation 'com.yandex.android:mobmetricalib:3.20.2'
-
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     //Dexter
     implementation 'com.karumi:dexter:6.2.3'

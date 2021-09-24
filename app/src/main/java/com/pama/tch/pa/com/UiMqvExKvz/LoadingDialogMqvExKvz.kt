@@ -1,21 +1,19 @@
-package com.pama.tch.pa.com.UiOfr
+package com.pama.tch.pa.com.UiMqvExKvz
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
 import androidx.fragment.app.DialogFragment
 import com.pama.tch.pa.com.R
 
-class InternetDialogOfr : DialogFragment()  {
-
+class LoadingDialogMqvExKvz : DialogFragment(R.layout.loading_dialog_mqvexkvz) {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         isCancelable = false
-        return inflater.inflate(R.layout.internet_dialog_ofr, container, false)
+        return super.onCreateView(inflater, container, savedInstanceState)
     }
 }

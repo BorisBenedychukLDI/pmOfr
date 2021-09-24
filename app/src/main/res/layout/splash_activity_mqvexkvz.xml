@@ -5,49 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".UiOfr.SplashActivityOfr">
+    tools:context=".UiMqvExKvz.SplashActivityMqvExKvz" >
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_mqvexkvz"
         android:layout_width="277dp"
         android:layout_height="259dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/splash_picture" />
+        app:srcCompat="@drawable/splash_picture_mqvexkvz" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="244dp"
+        android:id="@+id/textView_mqvexkvz"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/dela_gothic"
-        android:text="Ты готов?!"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/dela_gothic_mqvexkvz"
+        android:gravity="center"
+        android:text="@string/splash_label_mqvexkvz"
         android:textColor="@color/theme_1_yellow_ofr"
         android:textSize="34sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toTopOf="@+id/button_splash_mqvexkvz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_mqvexkvz" />
 
     <Button
-        android:id="@+id/button_splash_ofr"
+        android:id="@+id/button_splash_mqvexkvz"
         android:layout_width="177dp"
         android:layout_height="58dp"
         android:background="@color/theme_1_yellow_ofr"
-        android:fontFamily="@font/dela_gothic"
-        android:text="Поехали!"
+        android:fontFamily="@font/dela_gothic_mqvexkvz"
+        android:text="@string/splash_button_mqvexkvz"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_mqvexkvz"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
+        android:id="@+id/guideline_mqvexkvz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
