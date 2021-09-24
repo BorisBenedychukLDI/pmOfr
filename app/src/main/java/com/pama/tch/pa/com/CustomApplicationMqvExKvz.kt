@@ -27,8 +27,9 @@ class CustomApplicationMqvExKvz : Application () {
         }
         AppsFlyerLib.getInstance().run {
             init(decodeBase64MqvExKvz(BuildConfig.APPS_FLYER_KEY), appsFlyerConvMqvExKvz, this@CustomApplicationMqvExKvz)
-            startTracking(this@CustomApplicationMqvExKvz)
+            start(this@CustomApplicationMqvExKvz)
         }
+
 
     }
 }
