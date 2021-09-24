@@ -13,19 +13,23 @@ class MyWebViewClientMqvExKvz : WebViewClient() {
 
     override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {
         val prohibitedLinks1MqvExKvz = listOf("mailto:", "tel:")
-        val prohibitedLinks2MqvExKvz = listOf("vk", "facebook", "twitter")
+        val prohibitedLinks2MqvExKvz = listOf("vk.com", "facebook", "twitter")
         val urlMqvExKvz = request?.url.toString()
         return when {
+
             prohibitedLinks1MqvExKvz.find { urlMqvExKvz.startsWith(it) } != null -> {
+                view?.context?.startActivity(Intent(Intent.ACTION_VIEW, request?.url))
+                true
+            }
+
+            prohibitedLinks2MqvExKvz.find { urlMqvExKvz.contains(it) } != null -> {
                 Log.d("CustomWebClient", "Client provided with prohibited url:  $urlMqvExKvz")
                 true
 
             }
-            prohibitedLinks2MqvExKvz.find { urlMqvExKvz.contains(it) } != null -> {
-                view?.context?.startActivity(Intent(Intent.ACTION_VIEW, request?.url))
-                true
-            }
+
             else -> false
+
         }
     }
 
